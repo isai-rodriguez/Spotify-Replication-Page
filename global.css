@@ -29,7 +29,6 @@ nav{
 #home {
     height:5dvh;
     width: 5dvh;
-    
 }
 
 #logo{ 
@@ -119,16 +118,26 @@ main {
 }
 
 #albumsection {
+    margin-top: 10px;
     display: grid;
     grid-template-columns: repeat(8, 125px);
     justify-content: center;
     justify-items: center;
     padding-top: 120px;
-    background-color: rgb(31, 29, 29);
-    height: 500px;
-    width: 1200px;
+    background-color: rgb(12, 12, 12);
+    height: 400px;
+    width: 1300px;
     border-radius: 10px;
     
+    font-family: "Plus Jakarta Sans" , sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400px;
+    font-style: bolder;
+    font-size:11px;
+    color: white;
+    margin-left:6px;
+    margin-right: 6px;
+
 }
 
 .albumname{
@@ -165,9 +174,19 @@ main {
 }
 
 aside {
-    background-color: rgb(31, 29, 29);
+    margin-top: 10px;
+    background-color: rgb(12, 12, 12);
     font-size: 11px;
-    color:white
+    width:400px;
+    border-radius: 10px;
+
+
+
+    color:white;
+    font-family: "Plus Jakarta Sans" , sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400px;
+    font-style: bolder;
     
 }
 
@@ -179,14 +198,7 @@ aside {
     font-size:11px;
 } 
 
-.aside2 {
-   font-family: "Plus Jakarta Sans" , sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 400px;
-    font-style: normal;
-    font-size:11px;
-    color:white
-}  
+
 
 
 #Down {
@@ -195,5 +207,26 @@ aside {
     margin-left: 5px;
 }
 
+.pop-albums {
+    color: white;
+    font-family: "Plus Jakarta Sans" , sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400px;
+    font-style: bolder;
+    border: 2px;
+    width:100px;
+    height:150px;
+}
+
+#login{
+    background-color:black;
+    color:white;
+  width: 100px;
+    height: 40px;
+    justify-content: center;
+    border-radius: 50px;
+    display: flex;
+    align-items:center;  
+}
 
 
