@@ -117,17 +117,14 @@ main {
     
 }
 
-#albumsection {
+#albums {
     margin-top: 10px;
     display: grid;
     grid-template-columns: repeat(8, 125px);
     justify-content: center;
     justify-items: center;
-    padding-top: 120px;
     background-color: rgb(12, 12, 12);
-    height: 400px;
-    width: 1300px;
-    border-radius: 10px;
+    
     
     font-family: "Plus Jakarta Sans" , sans-serif;
     font-optical-sizing: auto;
@@ -135,9 +132,9 @@ main {
     font-style: bolder;
     font-size:11px;
     color: white;
-    margin-left:6px;
-    margin-right: 6px;
-
+    border-radius: 10px;
+    padding-bottom:120px;
+   
 }
 
 .albumname{
@@ -177,7 +174,7 @@ aside {
     margin-top: 10px;
     background-color: rgb(12, 12, 12);
     font-size: 11px;
-    width:400px;
+    width:600px;
     border-radius: 10px;
 
 
@@ -187,6 +184,7 @@ aside {
     font-optical-sizing: auto;
     font-weight: 400px;
     font-style: bolder;
+    height: 580px;
     
 }
 
@@ -196,6 +194,8 @@ aside {
     font-weight: 400px;
     font-style: normal;
     font-size:11px;
+    height: 400px;
+    width: 12px;
 } 
 
 
@@ -214,8 +214,8 @@ aside {
     font-weight: 400px;
     font-style: bolder;
     border: 2px;
-    width:100px;
-    height:150px;
+    width:400px;
+   
 }
 
 #login{
@@ -229,4 +229,13 @@ aside {
     align-items:center;  
 }
 
+#sec{
+    background: rgb(12, 12, 12);
+    height: 400px;
+    width: 1200px;
+    border-radius: 10px;
+    margin-left: 6px;
+    margin-right: 6px;
+    
+}
 
