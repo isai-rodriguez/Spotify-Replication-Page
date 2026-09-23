@@ -123,7 +123,7 @@ main {
     grid-template-columns: repeat(8, 125px);
     justify-content: center;
     justify-items: center;
-    background-color: rgb(12, 12, 12);
+    background-color: rgb(18, 18, 18);
     
     
     font-family: "Plus Jakarta Sans" , sans-serif;
@@ -133,7 +133,7 @@ main {
     font-size:11px;
     color: white;
     border-radius: 10px;
-    padding-bottom:120px;
+    padding-bottom:80px;
    
 }
 
@@ -170,22 +170,21 @@ main {
     font-size:11px;
 }
 
-aside {
-    margin-top: 10px;
-    background-color: rgb(12, 12, 12);
+.aside {
+    background-color: rgb(18, 18, 18);
     font-size: 11px;
     width:600px;
     border-radius: 10px;
-
-
 
     color:white;
     font-family: "Plus Jakarta Sans" , sans-serif;
     font-optical-sizing: auto;
     font-weight: 400px;
     font-style: bolder;
-    height: 580px;
+    height: 590px;
+
     
+
 }
 
 .lib {
@@ -196,10 +195,33 @@ aside {
     font-size:11px;
     height: 400px;
     width: 12px;
+    white-space: nowrap;
+    margin-bottom: -350px;
 } 
 
+.library-box{
+    background-color: #282828;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 15px;
+   
+}
 
+.library-box h2{
+    font-size: 18px;
+    margin:  10px ;
 
+}
+.library-box p{
+    margin:  15px ;
+
+}
+.library-box a{
+    background-color:white;
+    border-radius: 25px;
+    font-size: 14px;
+    color:#000000;
+}
 
 #Down {
     height: 20px;
@@ -215,6 +237,7 @@ aside {
     font-style: bolder;
     border: 2px;
     width:400px;
+    padding-top: 40px;
    
 }
 
@@ -230,7 +253,7 @@ aside {
 }
 
 #sec{
-    background: rgb(12, 12, 12);
+    background-color: rgb(18, 18, 18);
     height: 400px;
     width: 1200px;
     border-radius: 10px;
@@ -238,4 +261,14 @@ aside {
     margin-right: 6px;
     
 }
+
+#plus{
+    filter: brightness(0) invert(1);
+    width:25px;
+    margin-left: 350px;
+    
+    
+    
+}
+
 
